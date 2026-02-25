@@ -1,32 +1,12 @@
-# VoiceBridge — 100% Free Requirements
-# No API keys, no paid services, runs entirely locally
-
-# ── Web App ────────────────────────────────────────────────────────────────────
 streamlit>=1.32.0
-
-# ── Speech to Text (OpenAI Whisper — Free, Local) ─────────────────────────────
 openai-whisper>=20231117
-
-# ── Translation (IndicTrans2 by AI4Bharat — Free, Local) ─────────────────────
 transformers>=4.36.0
 sentencepiece>=0.1.99
 sacremoses>=0.0.53
-
-# ── Deep Learning Backend ──────────────────────────────────────────────────────
 torch>=2.0.0
-# For GPU: pip install torch --index-url https://download.pytorch.org/whl/cu118
-
-# ── TTS + Voice Cloning (Coqui XTTS-v2 — Free, Local) ────────────────────────
 TTS>=0.22.0
-
-# ── Voice Embedding (Resemblyzer — Free, Local) ───────────────────────────────
 resemblyzer>=0.1.3
-
-# ── Audio Processing ──────────────────────────────────────────────────────────
 soundfile>=0.12.1
 librosa>=0.10.0
 numpy>=1.24.0
-
-# ── Video Processing (FFmpeg Python wrapper) ──────────────────────────────────
 ffmpeg-python>=0.2.0
-# System: sudo apt install ffmpeg   OR   brew install ffmpeg
